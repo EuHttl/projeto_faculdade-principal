@@ -1,0 +1,2 @@
+gui.lopesgiacomello@gmail.com;1234;Guilherme;Giacomello
+hyttalo2002@gmail.com;1234;Hyttalo;da Silva

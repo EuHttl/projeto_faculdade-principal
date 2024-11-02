@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+.nome_input_php{
+    margin-top: 40px;
+}
+
+body {
+    font-family: 'Inter', sans-serif; 
+    background-color: #f4f2ec;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%; 
+    position: relative; 
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+  
+  .logo {
+    width: 250px; 
+  }
+  
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #533cdb;
+  }
+ 
+li {
+    list-style: none;
+}
+
+.dev {
+    color: #23A0FF;
+
+    
+}
+
+header {
+    width: 100%;
+    height: 50px;
+
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:  1px 0 3px rgba(0, 0, 0, 0.4);
+}
+
+header >h1 {
+    display: flex;
+    margin-right: auto;
+    color: #23A0FF;
+    
+}
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.newPost {
+    width: 100%;
+    height: 240px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:50px 0;
+    padding: 25px;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+div.newPost div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.newPost div.infoUser div.imgUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+}
+
+div.newPost div.infoUser strong {
+    font-size: 16px;
+    margin-left: 10px;
+    color: black;
+}
+
+div.newPost form.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+div.newPost form.formPost textarea {
+    height: 90px;
+    background: #FBFBFB;
+    margin: 15px 0 ;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 0;
+
+    font-weight: bold;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.newPost form.formPost div.iconAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+div.newPost form.formPost div.iconAndButton div.icons {
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+div.newPost form.formPost div.iconAndButton div.icons button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 0;
+    background: none;
+
+    cursor: pointer;
+}
+
+div.newPost form.formPost div.iconAndButton button.btnSubmitForm {
+    background: #23A0FF;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+div.newPost form.formPost div.iconAndButton button.btnSubmitForm:hover {
+    background: #1194f8;
+}
+
+ul.posts li.post {
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.5);
+}
+
+ul.posts li.post div.infoUserPost {
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour {
+    margin-left: 10px;
+}
+
+ul.posts li.post div.infoUserPost div.imgUserPost {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1194f8;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour >strong {
+    color: #1194f8 ;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour >p {
+    color: #d1d1d1;
+    font-size: 12px;
+}
+
+ul.posts li.post >p {
+    width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #727272;
+}
+
+ul.posts li.post div.actionBtnPost {
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.actionBtnPost button.filePost {
+    padding: 5px 20px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: background 0.2s;
+}
+
+ul.posts li.post div.actionBtnPost button.filePost img {
+    margin-right: 5px;
+
+}
+
+.like {
+    background: #FF6B6B;
+}
+
+.like:hover {
+    background: rgb(248, 75, 75);
+}
+
+.comment {
+    background: #FFC320;
+}
+
+.comment:hover {
+    background: rgb(245, 180, 0);
+}
+
+.share {
+    background: #23A0FF;
+}
+
+.share:hover {
+    background: rgb(8, 141, 241);
+}
+
+.nav-bar >ul {
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0 ;
+}
+.nav-bar >li {
+    display: inline;
+    margin: 10px;
+    color: #1194f8;
+}
+
+.nav-bar >li a {
+    text-decoration: none;
+    color: #23A0FF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgUserPost img {
+    height: 29px;
+    width: 29px;
+    
+}
+
+.imgUser img {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 1px;
+    
+}* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+body {
+    background-color: #fbfbfb;
+    font-family: 'Roboto', sans-serif;
+
+    -webkit-font-smoothing: antialiased !important;
+
+}
+ 
+li {
+    list-style: none;
+}
+
+.dev {
+    color: #23A0FF;
+
+    
+}
+
+header {
+    width: 100%;
+    height: 50px;
+
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:  1px 0 3px rgba(0, 0, 0, 0.4);
+}
+
+header >h1 {
+    display: flex;
+    margin-right: auto;
+    color: #23A0FF;
+    
+}
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div.newPost {
+    width: 100%;
+    height: 240px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin:50px 0;
+    padding: 25px;
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+}
+
+div.newPost div.infoUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.newPost div.infoUser div.imgUser {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #333;
+}
+
+div.newPost div.infoUser strong {
+    font-size: 16px;
+    margin-left: 10px;
+    color: black;
+}
+
+div.newPost form.formPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+
+}
+
+div.newPost form.formPost textarea {
+    height: 90px;
+    background: #FBFBFB;
+    margin: 15px 0 ;
+    padding: 25px;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    border: 0;
+
+    font-weight: bold;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.newPost form.formPost div.iconAndButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+div.newPost form.formPost div.iconAndButton div.icons {
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+div.newPost form.formPost div.iconAndButton div.icons button {
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    border: 0;
+    background: none;
+
+    cursor: pointer;
+}
+
+div.newPost form.formPost div.iconAndButton button.btnSubmitForm {
+    background: #23A0FF;
+    padding: 10px 50px;
+    color: #fff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+
+    border: 0;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+div.newPost form.formPost div.iconAndButton button.btnSubmitForm:hover {
+    background: #1194f8;
+}
+
+ul.posts li.post {
+    margin-bottom: 50px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 1px 0 3px rgba(0, 0, 0, 0.5);
+}
+
+ul.posts li.post div.infoUserPost {
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour {
+    margin-left: 10px;
+}
+
+ul.posts li.post div.infoUserPost div.imgUserPost {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1194f8;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour >strong {
+    color: #1194f8 ;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour >p {
+    color: #d1d1d1;
+    font-size: 12px;
+}
+
+ul.posts li.post >p {
+    width: 100%;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #727272;
+}
+
+ul.posts li.post div.actionBtnPost {
+    display: flex;
+    align-items: center;
+}
+
+ul.posts li.post div.actionBtnPost button.filePost {
+    padding: 5px 20px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: background 0.2s;
+}
+
+ul.posts li.post div.actionBtnPost button.filePost img {
+    margin-right: 5px;
+
+}
+
+.like {
+    background: #FF6B6B;
+}
+
+.like:hover {
+    background: rgb(248, 75, 75);
+}
+
+.comment {
+    background: #FFC320;
+}
+
+.comment:hover {
+    background: rgb(245, 180, 0);
+}
+
+.share {
+    background: #23A0FF;
+}
+
+.share:hover {
+    background: rgb(8, 141, 241);
+}
+
+.nav-bar >ul {
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0 ;
+}
+.nav-bar >li {
+    display: inline;
+    margin: 10px;
+    color: #1194f8;
+}
+
+.nav-bar >li a {
+    text-decoration: none;
+    color: #23A0FF;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgUserPost img {
+    height: 29px;
+    width: 29px;
+    
+}
+
+.imgUser img {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 1px;
+    
+}

@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif; 
+    background-color: #f4f2ec;
+    margin: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1rem;
+    width: 100%; 
+    position: relative; 
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+  
+  .logo {
+    width: 250px; 
+  }
+  
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: #533cdb;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #users-container {
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .user-card {
+    border: 3px solid rgb(0, 34, 255);
+    padding: .6rem;
+    width: 180px;
+    text-align: center;
+    
+  }
+  
+  .user-card img {
+    width: 90px;
+    border-radius: 50%;
+    background: #000000;
+  }
+  
+  .user-card a img {
+    width: 30px;
+    height: 30px;
+    
+    display: inline-block;
+    margin: 2px;
+    filter: brightness(0.8);
+    transition: all .3s ease;
+  }
+  
+  .user-card a img:hover{
+    transform: scale(1.15);
+    filter: brightness(1);
+  }
+  
+  .user-card .user {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .user-card {
+    color: #000000;
+    font-size: 0.9rem;
+  }
