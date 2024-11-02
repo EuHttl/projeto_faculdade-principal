@@ -5,7 +5,7 @@ if(!isset($_SESSION['email'])) {
     header('Location: login.php');
     exit;
 }else{
-    echo 'Bem vindo $_SESSION["nome"]';
+    echo "Bem vindo $nome";
 }
 $nome = $_SESSION['nome'];
 $s = $_SESSION['sobrenome'];
@@ -36,7 +36,6 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                     <img src="assets/img/integrantes_grupo/Logo_sem_fundo.png" alt="DevConnect" class="logo" />
                 </div>
                 <ul>
-                    <li><a href="integrantes.php">Integrantes</a></li>
                     <li><a href="sobre.php">Sobre</a></li>
                     <li><a href="contato.php">Contato</a></li>
                     <li><a href="logout.php">Desconectar</a></li>
@@ -45,12 +44,6 @@ if (!isset($_SESSION['mensagem_exibida'])) {
             </nav>
         </header>
 
-    <?php if ($exibir_mensagem): ?>
-    <div class="mensagem_principal">
-        <p>Olá, <?php echo $nome?>, seja bem-vindo ao DevConnect!</p>
-    </div>
-    <?php endif; ?>
-    
         <main class="main">
             
             <div class="newPost">

@@ -46,7 +46,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             <li><a href="integrantes.php">Integrantes</a></li>
             <li><a href="sobre.php">Sobre</a></li>
             <li><a href="contato.php">Contato</a></li>
-            <li><a href="login.php">Login</a></li>
             <li><a href="cadastro.php">Cadastre-se</a></li>
             <li><a href="glossario.php">Glossário</a></li>
         </ul>

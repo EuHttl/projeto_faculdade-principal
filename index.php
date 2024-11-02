@@ -16,7 +16,6 @@
                 <img src="assets/img/integrantes_grupo/Logo_sem_fundo.png" alt="DevConnect" class="logo" />
             </div>
             <ul>
-                <li><a href="index.php">Home</a></li>
                 <li><a href="integrantes.php">Integrantes</a></li>
                 <li><a href="sobre.php">Sobre</a></li>
                 <li><a href="contato.php">Contato</a></li>

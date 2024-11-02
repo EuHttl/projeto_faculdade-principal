@@ -20,7 +20,6 @@
                 <li><a href="contato.php">Contato</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="cadastro.php">Cadastre-se</a></li>
-                <li><a href="glossario.php">Glossário</a></li>
             </ul>
         </nav>
     </header>

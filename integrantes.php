@@ -22,7 +22,6 @@
         </div>
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li><a href="integrantes.php">Integrantes</a></li>
           <li><a href="sobre.php">Sobre</a></li>
           <li><a href="contato.php">Contato</a></li>
           <li><a href="login.php">Login</a></li>
@@ -39,7 +38,7 @@
 
     <div id="users-container">
       <div class="user-card">
-        <img src="assets/img/integrantes_grupo/hyttalo.jpg" alt="" />
+        <img src="assets/img/integrantes_grupo/hyttalo.jpeg" style="height: 90px; object-fit:contain;" alt="" />
         <p class="user">Hyttalo Costa</p>
         <br />
         <a href="https://github.com/EuHttl" target="_blank">
@@ -87,7 +86,7 @@
       </div>
 
       <div class="user-card">
-        <img src="assets/img/integrantes_grupo/jhennyfer.jpg" alt="" />
+        <img src="assets/img/integrantes_grupo/jhennyfer.jpeg" style="height: 90px; object-fit:contain;" alt="" />
         <p class="user">Jhennyfer Albuquerque</p>
         <br />
         <a href="https://github.com/">
