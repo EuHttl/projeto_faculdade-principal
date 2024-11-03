@@ -35,10 +35,7 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                     <img src="assets/img/integrantes_grupo/Logo_sem_fundo.png" alt="DevConnect" class="logo" />
                 </div>
                 <ul>
-                    <li><a href="sobre.php">Sobre</a></li>
-                    <li><a href="contato.php">Contato</a></li>
                     <li><a href="logout.php">Desconectar</a></li>
-                    <li><a href="glossario.php">Glossário</a></li>
                 </ul>
             </nav>
         </header>
@@ -126,7 +123,7 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                             <p>19h</p>
                         </div>
                     </div>
-                    <p>Manos vocês viram o pod do guanabara</p>
+                    <p>Manos vocês viram o podcast do guanabara</p>
 
                     <div class="actionBtnPost">
                         <button type="button" class="filePost like"><img src="assets/svg/heart.svg" alt="Curtir">Curtir</button>

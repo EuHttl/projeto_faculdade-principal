@@ -23,111 +23,35 @@
             </ul>
         </nav>
     </header>
-    <h1>Glossário HTML:</h1>
+    <h1>Glossário PHP:</h1>
 
     <section id="#html">
     <ul>
-        <li>div: Separar o conteúdo em conjunto. </li>
+        <li>Váriaveis: As váriaveis servem para armazenar da dados temporários, isso facilita no desenvolvimento da pagína  </li>
         <br>
-        <li>id: Serve para identificar elementos, para facilitar na navegação, e ainda possibilita que usemos como uma âncora de navegação</li>
+        <li>Session_start(): O session_start serve para iniciar uma sessão ou retomar a uma sessão existente. Ele também serve para criar um identificador de sessão para usuário. </li>
         <br>
-        <li>class: Serve para organizar e estruturar o codigo (facilita na estilização). </li>
+        <li>If: O if serve para estrutura do código e tomada de decisão</li>
         <br>
-        <li>nav: Representa uma seção da página que aponta para outra página ou para outra área do seu código.</li>
+        <li>Foreach: O foreach ele serve para percorrer por uma array ou por um objeto. </li>
         <br>
-        <li>label: representa uma legenda para um item em uma interface de usuário.</li>
+        <li>Echo: O echo serve para exibir a informação na tela para o usuário. </li>
         <br>
-        <li>strong: Tag que também deixa em negrito.</li>
+        <li>Exit: O exit faz com que pare um scrip. </li>
+        <br>
+        <li>Header(): Ele serve para fazer o redirecionamento para outra página.  </li>
+        <br>
+        <li>Endif: O endif serve para o fim da estrutura do if/else, podemos usar também a chaves "{}".  </li>
+        <br>
+        <li>Else: Serve para um caminho alternativo do código. </li>
+        <br>
+        <li>Session_destroy(): Ele serve para encerrar sessões dentro do código php. </li>
+        <br>
+        <li>File_put_contents(): Ele serve para escrever dados em um arquivo </li>
+        <br>
+        <li>Método POST: Ele é utilizado para enviar dados de um formulário ou de qualquer outro cliente para o servidor de forma segura</li>
+        <br>
     </ul>
-    </section>
-        
-    <h1>Glossário CSS:</h1>
-
-    <section id="#css">
-        <ul>
-            <li>font-family: Fonte que será usada para o código inteiro.</li>
-            <br>
-            <li>margin: tag para definir a margem ao redor dos elementos.</li>
-            <br>
-            <li>padding: Distância do conteudo para a borda.</li>
-            <br>
-            <li>padding-left: Distância do elemento da borda para a esquerda</li>
-            <br>
-            <li>box-sizing: border-box: Muda a propriedade padrão, utilizada para calcular largura e altura dos elementos.</li>
-            <br>
-            <li>display: flex: Esta tag ajuda a alterar elementos com mais precisão, a partir dela, podemos lidar com tags filhas (herdadas), atribuindo elementos sem alterar os demais.</li>
-            <br>
-            <li>flex-wrap: Já está é utilizada em layouts flexíveis, já que permite que o texto possua uma quebra de linha "forçada", para que não fique por cima de outra área.</li>
-            <br>
-            <li>flex:define como um ítem será posicionado para no espaço disponível dentro de seu container. </li>
-            <br>
-            <li>align-items: como a própria tag ja diz, serve para alinhar items centralmente ao longo do eixo.</li>
-            <br>
-            <li>font-size: tag usada para alterar o tamanho da fonte.</li>
-            <br>
-            <li>margin-bottom: serve como se fosse o margin, porém define apenas a parte inferior do elemento.</li>
-            <br>
-            <li>margin-right: define a propriedade apenas da direita do elemento.</li>
-            <br>
-            <li>text-transform: tag que permite alterar o tamanho das letras.</li>
-            <br>
-            <li>Color: em CSS é utilizada para definir a cor do texto de um elemento HTML. Ela permite especificar uma cor específica para o texto dentro desse elemento.</li>
-            <br>
-            <li>Font-weight: bold:  É usada para definir o peso da fonte de um elemento HTML como negrito</li>
-            <br>
-            <li>max-width: Está tag serve para delimitar uma largura máxima</li>
-            <br>
-            <li>justify-content: center: É usada para alinhar elementos no eixo principal, de acordo com o flex direction determinado.</li>
-            <br>
-            <li>margin-top: Define a propriedade apenas da parte superior do elemento.</li>
-            <br>
-            <li>gap: Define os espaços entre linhas e colunas.</li>
-            <br>
-            <li>font-style: italic: Ela é definifa para definir o estilo uma fonte como Itálica, quando aplicada a um elemento HTML</li>
-            <br>
-            <li>border: tag que permite mexer com a borda dos elementos.</li>
-            <br>
-            <li>border-radius: Tag que permitte o arredondamento de campos da borda.</li>
-            <br>
-            <li>display: inline-block: permite que os elementos fiquem lado a lado na pagina.</li>
-            <br>
-            <li>transform: scale: Elé utilizado para modificar um elemento HTML, ele aumenta oi diminiu o tamanho do elemento</li>
-            <br>
-            <li>filter: brightness: Ele é utilizado para ajustar o efeito de um elemento HTML</li>
-            <br>
-            <li>flex: define como um item será posicionado na página (flex vem de flexbox). </li>
-            <br>
-            <li>min-width: Ela é utilizada para definir a largura mínima da largura que um elemento pode ter</li>
-            <br>
-            <li>cursor: pointer: Permite alterar e estilizar propriedades do mouse.</li>
-            <br>
-            <li>align-self: start; é utilizada em layouts flexíveis para controlar o alinhamento vertical de um item flexível dentro de um contêiner flexível.</li>
-            <br>
-            <li>list-style-position: inside: É utilizada para especificar a posição do marcador ou imagem de uma lista</li>
-            <br>
-            <li>text-align: Permite a centralização do texto no eixo central.</li>
-            <br>
-            <li>list-style: tag para especificar elementos de uma lista.</li>
-            <br>
-            <li>Display: Inline: Elementos com display: inline; fluem no texto dentro de um documento HTML, o que significa que eles não começam em uma nova linha e não ocupam a largura total do contêiner pai. </li>
-            <br>
-            <li>box-shadow: Define efeitos de sombra em uma borda.</li>
-            <br>
-            <li>Resize: none: A propriedade resize: none; em CSS é utilizada para impedir que o usuário redimensione visualmente um elemento, como uma textarea, usando a interface de redimensionamento padrão do navegador</li>
-            <br>
-            <li>Outline: none: Ela irá remover qualquer contorno ao redor do elemento </li>
-            <br>
-            <li>background-position: determina a posição da imagem de fundo.</li>
-            <br>
-            <li>background-repeat: está tag possibilita repetições da imagem.</li>
-            <br>
-            <li>background-size: tag que delimita o tamanho do background.</li>
-            <br>
-            <li>position: tag que determina o metodo de posição de qualquer elemento.</li>
-            <br>
-            <li>transform-translate: tag que redimensiona o elemento no plano.</li>
-            <br>
-        </ul>
     </section>
 </body>
 </html>
