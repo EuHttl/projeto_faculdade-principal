@@ -4,9 +4,8 @@ session_destroy();
 if(!isset($_SESSION['email'])) {
     header('Location: login.php');
     exit;
-}else{
-    echo "Bem vindo $nome";
 }
+
 $nome = $_SESSION['nome'];
 $s = $_SESSION['sobrenome'];
 
