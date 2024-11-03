@@ -47,7 +47,7 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                     <div class="imgUser"><img src="assets/svg/homem.jpeg" alt=""></div>
                     <strong class="name"><?php echo "$nome  $s"?></strong>
                 </div>
-                <form class="formPost">
+                <form action="feed.php" class="formPost">
                     <textarea name="textarea" placeholder="Digite Aqui"></textarea>
                     <div class="iconAndButton">
                         <div class="icons">
@@ -56,7 +56,7 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                             <button class="btnFileForm"><img src="assets/svg/video.svg" alt="Adicionar um video"></button>
                         </div>
 
-                        <button class="btnSubmitForm">Publicar</button>
+                        <button type="button" class="btnSubmitForm">Publicar</button>
                     </div>
                 </form>
             </div>
