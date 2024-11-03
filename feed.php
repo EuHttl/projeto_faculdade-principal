@@ -47,7 +47,7 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                     <div class="imgUser"><img src="assets/svg/homem.jpeg" alt=""></div>
                     <strong class="name"><?php echo "$nome  $s"?></strong>
                 </div>
-                <form action="feed.php" class="formPost">
+                <form class="formPost">
                     <textarea name="textarea" placeholder="Digite Aqui"></textarea>
                     <div class="iconAndButton">
                         <div class="icons">
