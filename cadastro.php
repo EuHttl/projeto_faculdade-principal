@@ -71,7 +71,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <div class="input-group-row">
                     <div class="input-group">
-                        <input type="tel" name="telefone" id="tel-box" class="input" required autocomplete="off">
+                        <input type="tel" name="telefone" id="tel-box" class="input" placeholder="(xx)xxxxx-xxxx" maxlength="15" required autocomplete="off">
                         <label for="tel-box">Digite seu telefone*</label>
                     </div>
     
