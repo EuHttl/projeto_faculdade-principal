@@ -56,7 +56,7 @@ if (!isset($_SESSION['mensagem_exibida'])) {
                             <button class="btnFileForm"><img src="assets/svg/video.svg" alt="Adicionar um video"></button>
                         </div>
 
-                        <button type="submit" class="btnSubmitForm">Publicar</button>
+                        <button class="btnSubmitForm">Publicar</button>
                     </div>
                 </form>
             </div>
