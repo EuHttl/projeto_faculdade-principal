@@ -74,7 +74,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         <a href="cadastro.php" class="register-link">Cadastre-se</a>
     </div>
 </div>
-
+<!-- 
 <script>
     setTimeout(() => {
         const errorMessage = document.getElementById('error-message');
@@ -82,6 +82,6 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
             errorMessage.style.display = 'none';
         }
     }, 5000);
-</script>
+</script> -->
 </body>
 </html>
